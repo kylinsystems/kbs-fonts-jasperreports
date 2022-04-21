@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fontfamilies>
+  <fontFamily name="Source Han Sans CN">
+     <normal>com/kylinsystems/kbs/fonts/jasperreports/SourceHanSansCN-Regular.ttf</normal>
+     <bold>com/kylinsystems/kbs/fonts/jasperreports/SourceHanSansCN-Bold.ttf</bold>
+     <pdfEncoding>Identity-H</pdfEncoding>
+     <pdfEmbedded>true</pdfEmbedded>
+  </fontFamily>
+  <fontFamily name="Source Han Serif CN">
+     <normal>com/kylinsystems/kbs/fonts/jasperreports/SourceHanSerifCN-Regular.ttf</normal>
+     <bold>com/kylinsystems/kbs/fonts/jasperreports/SourceHanSerifCN-Bold.ttf</bold>
+     <pdfEncoding>Identity-H</pdfEncoding>
+     <pdfEmbedded>true</pdfEmbedded>
+  </fontFamily>
+  <fontFamily name="Alibaba PuHuiTi 2.0 55 Regular">
+     <normal>com/kylinsystems/kbs/fonts/jasperreports/AlibabaPuHuiTi-2-55-Regular.ttf</normal>
+     <bold>com/kylinsystems/kbs/fonts/jasperreports/AlibabaPuHuiTi-2-85-Bold.ttf</bold>
+     <pdfEncoding>Identity-H</pdfEncoding>
+     <pdfEmbedded>true</pdfEmbedded>
+  </fontFamily>
+</fontfamilies>
+

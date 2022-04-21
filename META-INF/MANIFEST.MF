@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: KBS Fonts for Jasperreports
+Bundle-SymbolicName: com.kylinsystems.kbs.fonts.jasperreports;singleton:=true
+Bundle-Version: 10.0.0.qualifier
+Bundle-Vendor: Ken Longnan <ken.longnan@gmail.com>
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version>=11))"
+Fragment-Host: net.sf.jasperreports.engine;bundle-version="6.11.0"
+Automatic-Module-Name: com.kylinsystems.kbs.fonts.jasperreports

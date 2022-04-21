@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="PruebaOSGi" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="56a757e2-1acd-4178-96f6-4493519775b7">
+	<queryString language="SQL">
+		<![CDATA[select * from test]]>
+	</queryString>
+	<field name="name" class="java.lang.String"/>
+	<field name="description" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="402" splitType="Stretch">
+			<staticText>
+				<reportElement x="10" y="10" width="650" height="30" uuid="13a6b63c-b81a-4cf9-bcd3-e48857b8f2e8"/>
+				<textElement>
+					<font fontName="Source Han Sans CN" size="20" isBold="false"/>
+				</textElement>
+				<text><![CDATA[中华人民共和国上海市-思源黑体 Source Han Sans CN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="50" width="650" height="30" uuid="a23bd6af-6f00-4bc1-b24c-8139d695edba"/>
+				<textElement>
+					<font fontName="Source Han Sans CN" size="20" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false"/>
+				</textElement>
+				<text><![CDATA[中华人民共和国上海市-思源黑体 Source Han Sans CN Bold]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="110" width="650" height="30" uuid="dd0e23f8-91e0-4124-b2c3-d36a047e976f"/>
+				<textElement>
+					<font fontName="Source Han Serif CN" size="20" isBold="false" isItalic="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[中华人民共和国上海市-思源宋体 Source Han Serif CN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="9" y="140" width="650" height="30" uuid="443b292c-efbc-4b01-8771-f89359f64bf3"/>
+				<textElement>
+					<font fontName="Source Han Serif CN" size="20" isBold="true" isItalic="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[中华人民共和国上海市-思源宋体 Source Han Serif CN Bold]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="220" width="650" height="30" uuid="6abeba0c-355b-4340-a1cd-0001098b3521"/>
+				<textElement>
+					<font fontName="Alibaba PuHuiTi 2.0 55 Regular" size="20" isBold="false" isItalic="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[中华人民共和国上海市 Alibaba PuHuiTi 2.0 55 Regular]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="9" y="259" width="650" height="30" uuid="c7905759-b14e-47fa-a0b6-646da902c75e"/>
+				<textElement>
+					<font fontName="Alibaba PuHuiTi 2.0 55 Regular" size="20" isBold="true" isItalic="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[中华人民共和国上海市 Alibaba PuHuiTi 2.0 55 Regular Bold]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
